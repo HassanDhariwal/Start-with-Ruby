@@ -107,13 +107,13 @@
 # 	end
 # end
 
-# class Parrot < BIRD
-# 	def tweet 
-# 		puts "squawk"
-# 	end
-# end
+class Parrot < BIRD
+	def tweet 
+		puts "squawk"
+	end
+end
 
-# hassan_bird = BIRD.new
-# hassan_bird.tweet(Cardinal.new)
-# hassan_bird.tweet(Parrot.new) # because both class are inherit with BIRD Class so ther i give type tweet 
-# end	
+hassan_bird = BIRD.new
+hassan_bird.tweet(Cardinal.new)
+hassan_bird.tweet(Parrot.new) # because both class are inherit with BIRD Class so ther i give type tweet 
+end	
